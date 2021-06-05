@@ -2,7 +2,7 @@ import random
 
     # Initalisations:
 
-juste_price = random.randint(1,5)
+juste_price = random.randint(1,10000)
 user_price = 0
 print("Veuillez ne pas entrer de valeur au dessus de 10000 (Le juste prix est entre 1-10000)\n")
 
@@ -23,5 +23,5 @@ while juste_price != user_price:
         print("C'est plus!")
     elif juste_price < user_price:
         print("C'est moins !")
-    elif juste_price == user_price:
+    else:
         print("Bravo c'est gagné !")
