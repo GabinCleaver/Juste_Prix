@@ -9,6 +9,10 @@ Ensuite, je vérifis simplement que le juste prix est soit inférieur soit supé
 
 Si ce n'est pas le cas c'est forcément que vous avez gagnez.
 
+Dépendences :
+
+```pip install colorama```
+
 💖 Enjoy
 
 🎫 Mon Discord: Gabin#7955
