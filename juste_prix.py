@@ -1,10 +1,13 @@
 import random
+from colorama import Fore, init
+
+init()
 
     # Initalisations:
 
-juste_price = random.randint(1,10000)
+juste_price = random.randint(1,5)
 user_price = 0
-print("Veuillez ne pas entrer de valeur au dessus de 10000 (Le juste prix est entre 1-10000)\n")
+print(Fore.CYAN + "Veuillez ne pas entrer de valeur au dessus de 10000 (Le juste prix est entre 1-10000)\n")
 
     # Boucle tant que ce n'est pas égal au bon chiffre:
 
@@ -20,8 +23,8 @@ while juste_price != user_price:
     # Vérifications:
 
     if juste_price > user_price:
-        print("C'est plus!")
+        print(Fore.LIGHTGREEN_EX + "C'est plus!")
     elif juste_price < user_price:
-        print("C'est moins !")
+        print(Fore.LIGHTRED_EX + "C'est moins !")
     else:
-        print("Bravo c'est gagné !")
+        print(Fore.LIGHTYELLOW_EX + f"Bravo c'est gagné ! Le chiffre gagnant était: {juste_price}")
