@@ -1,4 +1,4 @@
-# Juste_Prix
+Juste Prix
 ❗ Un juste prix totalement fait en Python par moi, et en français.
 
 🔮 Avec l'utilisation du module "random", j'ai pu faire un choix aléatoire entre 10000 valeurs.
