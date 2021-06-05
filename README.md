@@ -8,3 +8,5 @@
 Ensuite, je vérifis simplement que le juste prix est soit inférieur soit supérieur au prix utilisateur.
 
 Si ce n'est pas le cas c'est forcément que vous avez gagnez.
+
+Mon Discord: Gabin#7955
